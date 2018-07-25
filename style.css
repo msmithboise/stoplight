@@ -1,22 +1,29 @@
+.background{
+    background-color: grey;
+    height: 100vh;
+}
+
+
 .post{
-    height:30px;
-    width: 50px;
-    border: 1px solid black;
-    
+    width:10vh;
+    height: 20vh;
+    background-color: black;
+    margin: auto;
 }
 
 .lightbox{
-    border: 1px solid black;
+    border: 5px solid black;
     float: left;
     background-color: black;
-    margin-top: 20%;
-    margin-left: 45%
+    
+    margin-left: 45.3%
 }
 .redcircle{
     height: 100px;
     width: 100px;
     border-radius: 50%;
     background-color: red;
+    margin-bottom: 5%;
 }
 
 .yellowcircle{
@@ -24,6 +31,7 @@
     width: 100px;
     border-radius: 50%;
     background-color:yellow;
+    margin-bottom: 5%;
    
 }
 
@@ -32,13 +40,14 @@
     width: 100px;
     border-radius: 50%;
     background-color: green;
-    
+    margin-bottom: 5%;
 }
 .greencircle:hover{
     height: 100px;
     width: 100px;
     border-radius: 50%;
     background-color: greenyellow;
+    box-shadow: 0px 0px 30px white;
 }
 
 
